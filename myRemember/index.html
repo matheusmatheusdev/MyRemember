@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>MyRemember</title>
+
+</head>
+<body>
+  <div class="app">
+    <div class="todo-list">
+    <div class="container-topo">
+      <div class="pai-darkmode">
+        <input type="checkbox" class="darkmodeQuadradoc" id="darkmodeQuadrado">
+      <label for="darkmodeQuadrado" class="darkmodeLabel">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+      </label>
+      </div>
+      
+      <h1 class="title">
+        MyRemember 
+      </h1>
+    </div>
+      
+      <form class="form" action="">
+        <input class="form-input" type="text" data-form-input placeholder="...">
+        <input class="form-calendario" type = "datetime-local" placeholder="defina dia/mês/ano" data-form-date required>
+        <button class="form-button" data-form-button> click !</button>
+      </form>
+      
+      <ul class="list" data-list></ul>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script type = "module" src="main.js"></script>
+
+</body>
+</html>
